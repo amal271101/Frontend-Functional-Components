@@ -9,7 +9,6 @@ export function Profile(props) {
   const [isEditButtonClicked, setIsEditButtonClicked] = useState(false);
 
   function handleClick() {
-    console.log("hi");
     setIsEditButtonClicked(!isEditButtonClicked);
   }
   return (
